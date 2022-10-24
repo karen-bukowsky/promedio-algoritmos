@@ -1,0 +1,70 @@
+namespace programa_para_obtener_promedio
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("introduce el número de firmas maximo: ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("introduce el número de firmas que tienes:  ");
+            int y = int.Parse(Console.ReadLine());
+            {
+                Console.Write("tu porcentaje de firmas es de: ");
+                Console.WriteLine(reglade3(y, 100, x) + "%");
+                //int porcexam = int.Parse(Console.ReadLine());
+                //if (porcexam >= 80)
+
+                {
+                    Console.Write("introduce tu porcentaje del hacer");
+                    int z = int.Parse(Console.ReadLine());
+                    Console.Write("tu calificaión  de hacer  es de: ");
+                    Console.WriteLine(Reglahacer(z, 100, 400) );
+
+                    Console.Write("introduce tu porcentaje del saber hacer");
+                    int a = int.Parse(Console.ReadLine());
+                    Console.WriteLine("tu calificacion de saber hacer es de: ");
+                    Console.WriteLine (Reglahacer (a, 100, 400));
+                    int sabrhacr = int.Parse(Console.ReadLine());
+
+                    Console.Write("introduce los puntos máximos de adaptabilidad ");
+                    int adap= int.Parse(Console.ReadLine());
+                    Console.WriteLine("introduce los puntos que tú tienes : ");
+                    int puntosadap = int.Parse(Console.ReadLine());
+                    Console.WriteLine("tú porcentaje de adaptabilidad es de: ");
+                        Console.WriteLine(reglade3(puntosadap, 5, adap);
+                         int poradap = int.Parse(Console.ReadLine());    
+
+                    Console.Write("introduce los puntos máximos del ser ");
+                    int rubser = int.Parse(Console.ReadLine());
+                    Console.WriteLine("introduce los puntos que tú tienes : ");
+                    int puntosser = int.Parse(Console.ReadLine());
+                    Console.WriteLine("tú porcentaje de adaptabilidad es de: ");
+                    Console.WriteLine(reglade3(puntosser, 5, rubser );
+                    int porseser = int.Parse(Console.ReadLine());
+                }
+                Console.WriteLine("Tu promedio final es de:"  );
+                return profinal; 
+                
+            }
+
+        }
+        public static int reglade3(int y, int total , int x) 
+        {
+            int regla = (y * total) / x;
+            return regla;
+        }
+        public static int Reglahacer(int cuatrocientos, int z, int cien)
+
+        {
+            int hacersaber = (z * cien) / cuatrocientos;
+            return hacersaber;
+
+        }
+        public static int promedio(int prouno, int prodos, int protres, int procuatro)
+        {
+            int promediofinal = (z * .4 + a * .4 + )poradap * 2) .1 + (porseser*2).1  )
+                return profinal;
+        }
+    }
+}
